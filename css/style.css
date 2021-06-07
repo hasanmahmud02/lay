@@ -1,0 +1,140 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Open Sans', sans-serif;  */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2 ,h3 ,h4 ,h5, a{
+    font-family: 'Montserrat', sans-serif;font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px 0;
+    margin: 0;
+    color: #204f87;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+.img-fluid {
+    max-width: 80%;
+    height: auto;
+}
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    padding: 0px;
+    font-size: 13px;
+    color: #204f87;
+    font-weight: 600;
+}
+.header{
+    padding: 10px 0;
+}
+.slider{
+    background-image: url(../images/header-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+.slider h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+}
+.icon {
+    position: absolute;
+    color: #fff;
+    left: 50%;
+    top: 80%;
+    font-size: 20px;
+    transform: translate(-50%, 0px);
+    animation: updown 1s linear infinite;
+    animation-direction: alternate ;
+
+}
+@keyframes updown{
+    0%{
+        top: 80%;
+    }
+
+    100%{
+        top: 85%;
+    }
+}
+
+.feature{
+    padding: 80px 0;
+    background-color: #f7f8f8;
+}
+.feature-content{padding-right: 30px;text-align: justify;}
+.var-line{width: 77px;height: 4px;background-color: #F2622C;}
+.feature-content h2{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px 0;
+    margin: 0;
+    color: #204f87;
+}
+.feature-content p{
+    font-size: 16px;
+    color: #b0b0b1;
+}
+.feature-img{
+    /* padding: 0 20px; */
+    padding-left: 40px;
+    
+}
+
+.service {
+    background-image: url(../images/item-bg.png);
+    padding: 80px 0px;
+    background-position: right;
+    background-size: cover;
+    background-color: #f7f8f8 !important;
+    
+}
+
+.hdy{
+    padding: 80px 0;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border:none;
+     border-radius: 0rem;
+}
+
+.card-body h3 {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    font-weight: 700;
+    color: #fff;
+    font-size: 20px;
+}
+.card-body i{
+    position: absolute;
+    top: 75%;
+    left: 48%;
+    font-size: 30px;
+    transform: translate(-48%, -75%);
+    color: #fff;
+}
+.card-body {
+    flex: 0 0 auto;
+     padding: 0;
+     background-color: #f7f8f8;
+}
+
